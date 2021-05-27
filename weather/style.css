@@ -1,0 +1,25 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+.form-group{
+    padding-top: 50px;
+    display: inline;
+
+}
+.form-control{
+    padding: 10px; 
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+table, th, td {
+    /* border: 1px solid black;*/
+     border-collapse: collapse;
+   }
+   th, td {
+     padding: 15px;
+   }
+   td{
+   text-align:center;}

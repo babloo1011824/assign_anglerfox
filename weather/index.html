@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+    <script src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyA5-Fx1zLXz4mJZd3U5WSJbdcMUtsz3Nqc"></script> 
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="form-group">
+     
+        <input type="text" class="form-control" id="search_input" placeholder="Enter Place here" />
+        
+        <button>Search</button>
+    </div>
+    <table style="width:100%;margin-top: 50px;padding: 20px;">
+        <tr>
+          <th>Temperature</th>
+          <th>Humidity</th> 
+          <th>Pressure</th>
+           <th>visibility</th>
+        </tr>
+        <tr>
+          <td id="temperature"></td>
+          <td id="humidity"></td>
+          <td id="presure"></td>
+          <td id="vs"></td>
+        </tr>
+       
+      </table>
+</body>
+</html>
