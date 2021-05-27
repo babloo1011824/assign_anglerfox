@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden;
+  padding-top: 33px;
+  margin: 0px;
+  width: 100%;
+
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+}
+.navbar {
+  /* position: relative; */
+  background-image: linear-gradient(to right, #d9dee0, #c8d1d6);
+ 
+  /* padding: 10 !important; */
+}
+
+.navbar-nav li {
+  padding: 0 25px;
+}
+.navbar-nav li a {
+  color: black !important;
+  font-size: 22px;
+  text-align: left;
+  padding: 3px 6px;
+}
+ul li a:hover {
+  text-decoration: underline #fff;
+ 
+  /* color: #000; */
+}
+
+
+.sub-menu-1 ul li a {
+  text-decoration: none;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.sub-menu-1 ul li {
+  position: absolute;
+  display: block;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+.pad_sec{
+ padding: 20px;
+}
+h1{
+  font-family: 'Comfortaa', cursive;
+}
+#necklace{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.row_btn{
+  display: table;
+  width:100%;
+}
+.column_btn{
+  display: table-cell;
+  border: 1px solid black;
+  text-align: center;
+  padding:10px;
+  font-weight: bold;
+}
+.active_1, .btn_plan:hover {
+  background-color: Blue;
+  color: white;
+}
+/* .row2{
+  margin-top: 50px;
+  padding-top: 150px;
+} */
+/* h5{
+  padding-top: 20px;
+} */
+.top_class{
+
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.content{
+  padding: 20px 0;
+}
+
+#ring{
+ 
+}
+ #bracelets{
+
+ }
+ #accessories{
+
+ }
+
+
+#other{
+
+  margin-bottom: 500px;
+}
